@@ -1,0 +1,30 @@
+app:
+    name: alertmanager
+    code: alertmanager
+    notify: appzdev@cloudbourne.co
+
+build:
+    version: 0.20
+    env: DEV
+    build_file: none
+    output_files: output/*.zip
+    image_template: alertmanager-0.20
+
+deploy:
+    context: alpha/DEV
+    type: statefulset
+    replicas: 1
+    port:
+    - 9093
+
+volumes:
+  - claim: alertmanager-data
+    mount: /appz/data
+    name: data
+    size: 50Gi
+  
+properties:
+    SLACK_API_URL:
+      vault: SLACK_API_URL
+    SLACK_CHANNEL: appz-images 
+    revision : 1
