@@ -27,4 +27,4 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-images 
-    revision : 4
+    revision : 5
