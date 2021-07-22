@@ -1,7 +1,7 @@
 app:
     name: alertmanager
     code: alertmanager
-    notify: appzdev@cloudbourne.co
+    notify: bkoshy@ecloudcontrol.com
 
 build:
     version: 0.2
