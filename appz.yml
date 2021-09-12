@@ -28,4 +28,4 @@ properties:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-images 
     CLUSTER_NAME: NTNX-PRIMARY
-    revision : 12
+    revision : 14
