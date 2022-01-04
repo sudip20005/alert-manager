@@ -26,6 +26,6 @@ volumes:
 properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
-    SLACK_CHANNEL: appz-images 
-    CLUSTER_NAME: NTNX-PRIMARY
+    SLACK_CHANNEL: appz-delivery 
+    CLUSTER_NAME: AWS_QA
     revision : 16
