@@ -26,6 +26,6 @@ volumes:
 properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
-    SLACK_CHANNEL: testalert 
-    CLUSTER_NAME: AWS_QA
+    SLACK_CHANNEL: notification-openebs
+    CLUSTER_NAME: OPENEBS
     revision : 16
