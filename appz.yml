@@ -19,7 +19,6 @@ deploy:
 
 volumes:
   - claim: alertmanager-data
-    class: microk8s-hostpath
     mount: /appz/data
     name: data
     size: 50Gi
