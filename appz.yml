@@ -26,6 +26,6 @@ volumes:
 properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
-    SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: OPENEBS
+    SLACK_CHANNEL: appz-delivery
+    CLUSTER_NAME: OPENEBS STAGING
     revision : 17
