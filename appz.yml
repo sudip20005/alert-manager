@@ -28,5 +28,5 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-delivery
-    CLUSTER_NAME: OPENEBS STAGING
-    revision : 17
+    CLUSTER_NAME: RELATECARE DEV
+    revision : 1
