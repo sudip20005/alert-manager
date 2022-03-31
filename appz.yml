@@ -29,4 +29,4 @@ properties:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-delivery
     CLUSTER_NAME: RELATECARE DEV
-    revision : 2
+    revision : 3
