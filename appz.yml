@@ -1,7 +1,7 @@
 app:
     name: alertmanager
     code: alertmanager
-    notify: appz@ecloudcontrol.com
+    notify: cmsit-alerts@ecloudcontrol.com
 
 build:
     version: 0.2
@@ -26,6 +26,6 @@ volumes:
 properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
-    SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: OPENEBS
+    SLACK_CHANNEL: appz-delivery
+    CLUSTER_NAME: CMSIT
     revision : 17
