@@ -27,5 +27,5 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: OPENEBS
+    CLUSTER_NAME: AWS_QA
     revision : 19
