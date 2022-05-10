@@ -28,4 +28,4 @@ properties:
       vault: SLACK_API_URL
     SLACK_CHANNEL: apexaiq-devops
     CLUSTER_NAME: Apexa_DEV
-    revision : 11
+    revision : 12
