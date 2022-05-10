@@ -26,6 +26,6 @@ volumes:
 properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
-    SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: AWS_QA
-    revision : 19
+    SLACK_CHANNEL: apexaiq-devops
+    CLUSTER_NAME: Apexa_DEV
+    revision : 11
