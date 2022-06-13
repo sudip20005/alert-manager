@@ -14,7 +14,6 @@ deploy:
     context: alpha/DEV
     type: statefulset
     replicas: 1
-    ingress: none
     port:
     - 9093
 
