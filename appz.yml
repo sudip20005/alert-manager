@@ -27,6 +27,6 @@ volumes:
 properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
-    SLACK_CHANNEL: apexaiq-devops
-    CLUSTER_NAME: Apexa_DEV
-    revision : 19
+    SLACK_CHANNEL: appz-delivery
+    CLUSTER_NAME: Apexa
+    revision : 20
