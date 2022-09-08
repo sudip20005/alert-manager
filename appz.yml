@@ -1,7 +1,7 @@
 app:
     name: alertmanager
     code: alertmanager
-    notify: appz@ecloudcontrol.com
+    notify: sudip20005@hotmail.com
 
 build:
     version: 0.2
@@ -11,7 +11,7 @@ build:
     image_template: alertmanager-0.20
 
 deploy:
-    context: alpha/DEV
+    context: sudip20005/DEV
     type: statefulset
     replicas: 1
     port:
@@ -28,4 +28,4 @@ properties:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
     CLUSTER_NAME: AWS_QA
-    revision : 19
+    revision : 20
